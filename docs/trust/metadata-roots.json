@@ -1,0 +1,23 @@
+[
+  {
+    "keyId": "breadgit-runtime-2026-v1",
+    "role": "runtime",
+    "publicKey": "LfZogjvIUe/yMjPVlddZRXhNn2mTvWQ/pYHZyWKR7L4=",
+    "notBefore": 1794364044,
+    "notAfter": 2109724344
+  },
+  {
+    "keyId": "breadgit-release-2026-v1",
+    "role": "release",
+    "publicKey": "dVEjsJuWVTYnVCcKVI/I+5fS2pBpQFc2IaUWZA3HJFo=",
+    "notBefore": 1794364044,
+    "notAfter": 2109724344
+  },
+  {
+    "keyId": "breadgit-catalog-2026-v1",
+    "role": "catalog",
+    "publicKey": "QRPKsGmgF0ucHRW7IS8NaHnris3AiYVHh1HSR+5bHR8=",
+    "notBefore": 1794364044,
+    "notAfter": 2109724344
+  }
+]

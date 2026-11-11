@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "productId": "com.breadgit.desktop",
+  "channel": "stable",
+  "activated": false,
+  "installerPublished": false,
+  "reason": "public-code-signing-and-release-acceptance-pending"
+}
