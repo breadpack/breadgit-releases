@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.4",
+  "evaluatedAt": "2026-11-12",
+  "installerSha256": "1bec4cbfe4645a5e3447befe4ac64b5856e68356e7d7a835927748d0dd034f4a",
+  "windowsAuthenticode": "NotSigned",
+  "updateSignaturePolicy": "update-signature-only",
+  "isolatedWindowsVm": true,
+  "standardUser": true,
+  "transitionManualInstall": {
+    "from": "0.1.1",
+    "to": "0.1.2",
+    "passed": true
+  },
+  "automaticDownloadFromPublicHttps": true,
+  "tamperedInstallerRejected": true,
+  "tamperedHelperRejected": true,
+  "activeGitOperationBlockedInstallation": true,
+  "pendingApprovalBlockedInstallation": true,
+  "automaticRollback": {
+    "from": "0.1.3",
+    "to": "0.1.2",
+    "fault": "VM-only executable ACL denial; published package unmodified",
+    "passed": true
+  },
+  "subsequentUpdate": {
+    "from": "0.1.2",
+    "to": "0.1.4",
+    "phase": "healthy",
+    "passed": true
+  },
+  "repositoryAndSettingsPreserved": true,
+  "commitDraftSearchViewPreserved": true,
+  "databaseIntegrity": "ok",
+  "databaseSchema": 9,
+  "lightDarkNative960x640": true,
+  "testAccessRemoved": true,
+  "vmStopped": true,
+  "publicBrowserDownloadSha256Verified": true,
+  "note": "Acceptance recorded after immutable package freeze; build-time installedAcceptance:false fields are historical, not the final acceptance result."
+}
