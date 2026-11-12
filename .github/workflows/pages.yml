@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths: ['docs/**', '.github/workflows/pages.yml']
   workflow_dispatch:
+  schedule:
+    - cron: '29 * * * *'
 permissions:
   contents: read
   pages: write
@@ -17,7 +19,7 @@ jobs:
     timeout-minutes: 8
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.retry.outputs.page_url || steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
@@ -28,4 +30,15 @@ jobs:
           path: docs
       - name: Deploy complete static tree
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        with:
+          timeout: 180000
+          error_count: 3
+      - name: Retry transient Pages or OIDC failure
+        id: retry
+        if: steps.deployment.outcome == 'failure'
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        with:
+          timeout: 180000
+          error_count: 3

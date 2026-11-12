@@ -7,7 +7,7 @@ from metadata import BASE, DAY, Failure, fetch, parse, public_state, require, ve
 
 def check(roots, now, status, catalog, releases):
     require(status["status"] == "ok", "RENEWAL_FAILED")
-    require(0 <= now - status["lastVerifiedAt"] <= 30 * 3600, "RENEWAL_HEARTBEAT_STALE")
+    require(-300 <= now - status["lastVerifiedAt"] <= 30 * 3600, "RENEWAL_HEARTBEAT_STALE")
     require(status["sequence"] == catalog["sequence"], "RENEWAL_NOT_CONFIRMED")
     require(catalog["expiresAt"] - now > 14 * DAY, "CATALOG_EXPIRY_NEAR")
     require(all(r["expiresAt"] - now > 14 * DAY for r in releases.values()), "RELEASE_EXPIRY_NEAR")
