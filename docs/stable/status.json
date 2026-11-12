@@ -7,11 +7,13 @@
   "reason": "public-code-signing-and-release-acceptance-pending",
   "manualPrereleasePublished": true,
   "manualPrerelease": {
-    "version": "0.1.0",
-    "tag": "v0.1.0-manual-unsigned",
-    "url": "https://github.com/breadpack/breadgit-releases/releases/download/v0.1.0-manual-unsigned/BreadGit-0.1.0-windows-x64-manual-unsigned-setup.exe",
-    "sha256": "c85680507dacd10900b7dabe369749d19a5bd2989f0a48e60c92ba6358dbf3ee",
+    "version": "0.1.1",
+    "tag": "v0.1.1-manual-unsigned",
+    "url": "https://github.com/breadpack/breadgit-releases/releases/download/v0.1.1-manual-unsigned/BreadGit-0.1.1-windows-x64-manual-unsigned-setup.exe",
+    "sha256": "3ab48bf2b8baa756f6397b1c2d87b04258d9d192a7cdf55ef48338d7e39978d8",
     "authenticode": "NotSigned",
-    "automaticUpdates": false
+    "automaticUpdates": false,
+    "manualNotifications": true,
+    "automaticInstallation": false
   }
 }
