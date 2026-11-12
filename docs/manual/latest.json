@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "productId": "com.breadgit.desktop",
-  "version": "0.1.1",
+  "version": "0.1.4",
   "distributionMode": "manual-unsigned",
   "automaticInstall": false
 }

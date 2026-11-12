@@ -4,16 +4,26 @@
   "channel": "stable",
   "activated": false,
   "installerPublished": false,
-  "reason": "public-code-signing-and-release-acceptance-pending",
+  "reason": "windows-public-code-signing-not-configured",
   "manualPrereleasePublished": true,
   "manualPrerelease": {
-    "version": "0.1.1",
-    "tag": "v0.1.1-manual-unsigned",
-    "url": "https://github.com/breadpack/breadgit-releases/releases/download/v0.1.1-manual-unsigned/BreadGit-0.1.1-windows-x64-manual-unsigned-setup.exe",
-    "sha256": "3ab48bf2b8baa756f6397b1c2d87b04258d9d192a7cdf55ef48338d7e39978d8",
+    "version": "0.1.4",
+    "tag": "v0.1.4-update-signed",
+    "url": "https://github.com/breadpack/breadgit-releases/releases/download/v0.1.4-update-signed/BreadGit-0.1.4-windows-x64-update-signed-setup.exe",
+    "sha256": "1bec4cbfe4645a5e3447befe4ac64b5856e68356e7d7a835927748d0dd034f4a",
     "authenticode": "NotSigned",
-    "automaticUpdates": false,
-    "manualNotifications": true,
-    "automaticInstallation": false
+    "automaticUpdates": true,
+    "manualNotifications": false,
+    "automaticInstallation": false,
+    "installationRequiresConsent": true
+  },
+  "updateSignatureChannel": {
+    "activated": true,
+    "pointerUrl": "https://breadpack.github.io/breadgit-releases/updates/current.json",
+    "version": "0.1.4",
+    "signaturePolicy": "update-signature-only",
+    "publicCodeSigning": false,
+    "automaticDownload": true,
+    "installationRequiresConsent": true
   }
 }
