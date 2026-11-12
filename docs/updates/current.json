@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "sequence": 1,
+  "catalogUrl": "https://breadpack.github.io/breadgit-releases/updates/catalog-1.signed.json",
+  "catalogSha256": "580714504bc3083843406ee08da88389c9e5c45078a9b1c1dac9c875115d27e3",
+  "requestSha256": "0000000000000000000000000000000000000000000000000000000000000000"
+}
