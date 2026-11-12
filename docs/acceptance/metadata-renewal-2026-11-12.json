@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "evaluatedAt": "2026-11-12",
+  "channelVersion": "0.1.4",
+  "catalogSequence": 5,
+  "renewalCheckIntervalHours": 6,
+  "renewWhenRemainingDays": 21,
+  "metadataLifetimeDays": 30,
+  "independentMonitorIntervalHours": 6,
+  "heartbeatStaleAfterHours": 30,
+  "nearExpiryWarningDays": 14,
+  "failureRetryMinutes": 15,
+  "privateWorkerOnboot": true,
+  "systemdEncryptedCredentials": true,
+  "privateKeyRolesOnWorker": [
+    "release",
+    "catalog"
+  ],
+  "signingKeysInGithubActions": false,
+  "publicHistoryPrivateMaterialMatches": 0,
+  "realWrongKeyFailure": "SIGNING_KEY_MISMATCH",
+  "failureChangedOnlyOperationalStatus": true,
+  "failedMonitorUrl": "https://github.com/breadpack/breadgit-releases/actions/runs/43206546836",
+  "recoveredMonitorUrl": "https://github.com/breadpack/breadgit-releases/actions/runs/43207699236",
+  "automaticServiceRetryRecoveryVerified": true,
+  "actualInstalledUpdate": {
+    "fromVersion": "0.1.2",
+    "toVersion": "0.1.4",
+    "phase": "healthy",
+    "renewedManifestSequence": 5,
+    "nativeWatermarkSequences": [
+      4,
+      5
+    ],
+    "repositorySettingsDraftPreserved": true
+  },
+  "installerAssetAndApplicationBytesUnchanged": true,
+  "windowsCodeSigning": "NotSigned",
+  "testVmStopped": true,
+  "renewalWorkerRunning": true
+}
