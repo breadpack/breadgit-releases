@@ -1,1 +1,1 @@
-{"schemaVersion":1,"status":"error","errorCode":"SIGNING_KEY_MISMATCH","lastAttemptAt":1794481701,"lastVerifiedAt":1794481671,"lastRenewedAt":1794481633,"sequence":4,"expiresAt":1797073633,"supportedVersions":["0.1.2","0.1.3","0.1.4"],"renewed":true}
+{"schemaVersion":1,"status":"error","errorCode":"GIT_OPERATION_FAILED","lastAttemptAt":1794481855,"lastVerifiedAt":1794481671,"lastRenewedAt":1794481633,"sequence":4,"expiresAt":1797073633,"supportedVersions":["0.1.2","0.1.3","0.1.4"],"renewed":true}
