@@ -1,14 +1,14 @@
 # BreadGit distribution
 
-BreadGit 0.1.9 is a prerelease with **cryptographically signed in-app updates**. Windows executables remain Authenticode **NotSigned**.
+BreadGit 0.1.10 is a prerelease with **cryptographically signed in-app updates**. Windows executables remain Authenticode **NotSigned**.
 
 - [Download](https://breadpack.github.io/breadgit-releases/)
-- [Release](https://github.com/breadpack/breadgit-releases/releases/tag/v0.1.9)
+- [Release](https://github.com/breadpack/breadgit-releases/releases/tag/v0.1.10)
 - [Signed update channel](https://breadpack.github.io/breadgit-releases/updates/current.json)
 - [Distribution status](https://breadpack.github.io/breadgit-releases/stable/status.json)
-- [Actual isolated Windows acceptance](https://breadpack.github.io/breadgit-releases/acceptance/0.1.9.json)
+- [Actual isolated Windows acceptance](https://breadpack.github.io/breadgit-releases/acceptance/0.1.10.json)
 
-Users of 0.1.1 or earlier must manually install 0.1.9 once. Future updates are checked and downloaded automatically, verified against keys compiled into the app, then installed after review and consent when Git is idle. Closing the update notice dismisses it for that launch. Interrupted health verification triggers rollback; user repositories and settings are preserved.
+Users of 0.1.1 or earlier must manually install 0.1.10 once. Future updates are checked and downloaded automatically, verified against keys compiled into the app, then installed after review and consent when Git is idle. Closing the update notice dismisses it for that launch. Interrupted health verification triggers rollback; user repositories and settings are preserved.
 
 Windows 11 24H2+ x64, per-user installation. No test certificate installation is required. Windows or organization policy may warn or block unsigned executables. Update signatures do not provide Windows publisher identity or SmartScreen reputation.
 
